@@ -1,17 +1,17 @@
-# 🏥 Maternal Health Risk Predictor with Explainable AI (XAI)
+# Maternal Health Risk Predictor with Explainable AI (XAI)
 
 ### [🚀 View Live Deployed Application](https://maternal-health-risk-app-cgbssqnsxjrfz4je2n3pbc.streamlit.app/)
 
-## 📌 Project Overview
+## Project Overview
 Maternal mortality is a critical global health challenge. This project provides a **Predictive Analytics platform** to identify high-risk pregnancies using machine learning. By integrating **Explainable AI (SHAP & LIME)**, the system moves beyond "black-box" predictions, giving clinicians transparent, data-backed justifications for risk assessments.
 
-## 🛠️ Technical Stack
+## Technical Stack
 - **Modeling:** XGBoost (Primary), Random Forest, Logistic Regression.
 - **Explainability:** SHAP (Global Importance), LIME (Local Instance Explanations).
 - **Deployment:** Streamlit Cloud.
 - **Engineering:** Python (Pandas, Scikit-Learn), Feature Engineering (BMI, Anemia Flags, BP Differentials).
 
-## 📊 Database Schema & Feature Engineering
+## Database Schema & Feature Engineering
 The model is trained on an enhanced clinical dataset. Beyond raw vitals, I engineered several features to improve predictive accuracy for maternal complications.
 
 | Column Name | Data Type | Description |
