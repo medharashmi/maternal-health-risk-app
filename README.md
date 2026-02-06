@@ -31,20 +31,20 @@ The model is trained on an enhanced clinical dataset. Beyond raw vitals, I engin
 
 
 
-## 🔍 Explainable AI (XAI) Implementation
+## Explainable AI (XAI) Implementation
 In healthcare, transparency is a requirement, not a feature.
 
-### 🔴 Global Interpretability (SHAP)
+### Global Interpretability (SHAP)
 ![SHAP Plot]("C:\Users\Medha Rashmi\OneDrive - O. P. Jindal Global University\Desktop\MateranlHealthProject\SHAP_outputs_averagedforallclasses\shap_waterfall_XGBoost_idx2.png")
 * **Insight:** The SHAP summary plot confirms that **Blood Glucose** and **Systolic BP** are the primary drivers of "High Risk" classifications, aligning with clinical standards for gestational health.
 
-### 🟢 Local Interpretability (LIME)
+### Local Interpretability (LIME)
 ![LIME Plot]("C:\Users\Medha Rashmi\OneDrive - O. P. Jindal Global University\Desktop\MateranlHealthProject\Old_LIME_outputs\lime_explanation_XGBoost_idx2.png")
 * **Insight:** For individual patient triage, the LIME plot identifies exactly which vital sign (e.g., a sudden spike in Blood Sugar) triggered the risk alert, even if other vitals remained stable.
 
-## 📈 Key Results & Impact
+## Key Results & Impact
 - **Prioritizing Recall:** The XGBoost model was optimized for **Recall**, ensuring that the system minimizes "False Negatives"—crucial in a clinical setting where missing a high-risk case can be fatal.
 - **Transparency:** SHAP/LIME integration builds trust with medical professionals by justifying every automated alert.
 
-## ⚠️ Ethical Disclaimer
+## Ethical Disclaimer
 This tool is a **Supportive AI System** intended for triage and awareness. It is **not a standalone diagnostic engine** and must be used in conjunction with professional clinical judgment.
