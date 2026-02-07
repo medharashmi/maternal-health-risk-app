@@ -35,11 +35,11 @@ The model is trained on an enhanced clinical dataset. Beyond raw vitals, I engin
 In healthcare, transparency is a requirement, not a feature.
 
 ### Global Interpretability (SHAP)
-![SHAP Plot]("lime_explanation_XGBoost_idx2.png")
+![SHAP Plot](shap_waterfall_XGBoost_idx2.png)
 * **Insight:** The SHAP summary plot confirms that **Blood Glucose** and **Systolic BP** are the primary drivers of "High Risk" classifications, aligning with clinical standards for gestational health.
 
 ### Local Interpretability (LIME)
-![LIME Plot]("C:\Users\Medha Rashmi\OneDrive - O. P. Jindal Global University\Desktop\MateranlHealthProject\Old_LIME_outputs\lime_explanation_XGBoost_idx2.png")
+![LIME Plot](lime_explanation_XGBoost_idx2.png)
 * **Insight:** For individual patient triage, the LIME plot identifies exactly which vital sign (e.g., a sudden spike in Blood Sugar) triggered the risk alert, even if other vitals remained stable.
 
 ## Key Results & Impact
