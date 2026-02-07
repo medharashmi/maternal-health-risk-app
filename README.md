@@ -35,7 +35,7 @@ The model is trained on an enhanced clinical dataset. Beyond raw vitals, I engin
 In healthcare, transparency is a requirement, not a feature.
 
 ### Global Interpretability (SHAP)
-![SHAP Plot]("C:\Users\Medha Rashmi\OneDrive - O. P. Jindal Global University\Desktop\MateranlHealthProject\SHAP_outputs_averagedforallclasses\shap_waterfall_XGBoost_idx2.png")
+![SHAP Plot]("lime_explanation_XGBoost_idx2.png")
 * **Insight:** The SHAP summary plot confirms that **Blood Glucose** and **Systolic BP** are the primary drivers of "High Risk" classifications, aligning with clinical standards for gestational health.
 
 ### Local Interpretability (LIME)
